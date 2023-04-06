@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    background: #FFF;
+    width: 100%;
+    z-index: 1;
+}
+.perks{
+    display: flex;
+    gap: 60px;
+}
+.club{
+    width: 200px;
+}
+.get{
+    background-color: #066952;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    margin-left: 350PX;
+}
+.container{
+    display: flex;
+    background-color: #07775D;
+    height: 120vh;
+    color: white;
+}
+.intro-container{
+    padding-left: 70px;
+}
+.intro{
+    display: flex;
+    font-size: 60px;
+    font-weight: bolder;
+    width: 600px;
+    padding: 300px 10px 0px 0px;
+}
+
+.intro-about{
+    width: 600px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 40px 0px 40px 0px;
+}
+.store{
+    width: 200px;
+
+}
+.video{
+    height: 85vh;
+    border-radius: 15px;
+    margin: 180px 0px 0px 40px;
+}
+.scroll{
+    display: flex;
+    overflow-x: hidden;
+}
+.top{
+    margin-top: 20px;
+}
+.scroll-bar{
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px 90px 90px;
+    column-gap: 120px;
+    transform: translateX(100%);
+    animation: move 30s linear infinite;
+    padding: 20px 0px 20px 0px;
+    background-repeat: repeat-x;
+}
+@keyframes move {
+to{
+    transform: translateX(-100%);
+}
+}
+.features{
+    background-color: #FBF5F3;
+    height: 85vh;
+    padding: 40px; 
+}
+.features-container{
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: flex-end;
+    padding-left: 120px;
+}
+.wooden-icon{
+    width: 500px;
+    height: 70vh;
+    padding: 30px 40px 40px 40px;
+}
+.restriction{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 40px 0px 30px 0px;
+    width: 300px;
+}
+.invest{
+    padding: 0px 0px 40px 0px;
+    font-weight: 300;
+}
+.heading{
+    padding: 15px 0px 15px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.write-ups{
+    width: 150px;
+    padding: 0px 40px 0px 0px;
+    font-weight: 300;
+}
+.start{
+    background-color: #066952;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 10px 15px 30px;
+    width: 130px;
+}
+.section2{
+    padding: 0px 70px 0px 70px;
+}
+.invest-container{
+    background-color: #066952;
+    height: 70vh;
+    color: white;
+    width: 90%;
+    padding: 0px 0px 0px 100px ;
+}
+.fractions{
+    padding: 90px 0px 50px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.greentesla{
+    width: 500px;
+    height: 70vh;
+    margin: -40% 0% 0px 57.5% ;
+}
+.fractional{
+    width: 400px;
+    padding-bottom: 60px;
+    line-height: 0.8cm;
+    font-size: larger;
+    font-weight: lighter;
+}
+.investing{
+    background-color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+    color: #066952;
+    display: flex;
+    width: 130px;
+}
+.invest-container2{
+    background-color: white;
+    display: flex;   
+}
+.vest{
+    padding: 100px 100px 50px 100px;
+}
+.basics{
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.teach{
+    padding-bottom: 30px;
+    font-weight: 300;
+}
+.section3{
+    background-color: rgb(251, 245, 243);
+    height: 115vh;
+    display: flex;
+    margin-top: 10px;
+    
+}
+.section3-container{
+    padding: 50px 70px 0px 70px ;
+    overflow: hidden;
+}
+.safe{
+    font-size: 50px;
+    font-weight: bold;
+    width: 480px;
+    padding: 0px 0px 30px 0px;
+}
+.trust{
+    width: 580px;
+    padding-bottom: 30px;
+    font-weight: 300;
+}
+.bank{
+    font-weight: bold;
+    padding: 20px 0px 15px 0px;
+}
+.state{
+    width: 350px;
+    padding: 0px 30px 30px 0px;
+    font-weight: 300;
+}
+.security{
+    width: 600px;
+    height: 80vh;
+    margin: 70px 20px 0px 0px;
+}
+.section4{
+    background-color: #07775D;
+    height: 140vh;
+}
+.bank2{
+    font-weight: bold;
+    padding: 20px 0px 15px 0px;
+    font-size: 23px;
+}
+.products{
+    color: #FFF;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 7% 0px 0% 40%;
+}
+.columns{
+    display: flex;
+    padding: 100px 70px 40px 50px ;
+}
+.stocks-img{
+    width: 150px;
+    padding: 80px;
+}
+.color1{
+    background-color: #C4CAE4;
+    width: 300px;
+    height: 40vh;
+    border-radius: 5px 5px 0px 0px ;
+}
+.color2{
+    background-color: #F2F2F2;
+    width: 300px;
+    height: 40vh;
+    border-radius: 5px 5px 0px 0px ;
+}
+.color3{
+    background-color: #E99B8D;
+    width: 300px;
+    height: 40vh;
+    border-radius: 5px 5px 0px 0px ;
+}
+.color4{
+    background-color: #BAC5E8;
+    width: 300px;
+    height: 40vh;
+    border-radius: 5px 5px 0px 0px ;
+}
+.column1{
+    background-color: #FFF;
+    width: 240px;
+    height: 50vh;
+    padding: 30px;
+}
+.column-padding{
+    padding: 0px 20px 0px 20px;
+}
+.portfolio{
+    font-weight: 300;
+    padding-bottom: 55px;
+}
+.portfolio1{
+    font-weight: 300;
+    padding-bottom: 100px;
+}
+.portfolio2{
+    font-weight: 300;
+    padding-bottom: 110px;
+}
+.portfolio3{
+    font-weight: 300;
+    padding-bottom: 125px;
+}
+.section5{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.africans{
+    font-size: 40px;
+    font-weight: bold;
+    width: 700px;
+    margin: 15% 0% 5% 0%;
+}
+.robust{
+    width: 650px;
+    font-weight: 300;
+    padding-bottom: 10%;
+    line-height: 1.5;
+    font-size: 25px;
+}
+.figures{
+    color: #07775D;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+.users{
+    font-size: 30px;
+    font-weight: bold;
+}
+.section6{
+    background-color: #DDAC6C;
+    height: 100vh;
+    width: 100%;
+}
+.section6-container{
+    padding: 60px 30px 60px 30px ;
+}
+.team{
+    width: 400px;
+}
+.team1{
+    width: 400px;
+    margin-bottom: 20%;
+}
+.team2{
+    width: 400px;
+    margin-left: 30%;
+    margin-top: -110%;
+}
+.team3{
+    width: 400px;
+    margin-bottom: 20%;
+}
+.team4{
+    width: 400px;
+    margin-top: -110%;
+}
+.section7{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.section7-container{
+    display: flex;
+    padding: 200px;
+}
+.trigger{
+    width: 400px;
+    padding-right: 80px;
+}
+.alerts{
+    font-size: 50px;
+    font-weight: bold;
+    width: 500px;
+    padding-bottom: 50px;
+}
+.armed{
+    font-weight: 300;
+    font-size: 15px;
+    padding-bottom: 50px;
+    width: 350px;
+}
+.section8{
+    background-color: #DDBD8E;
+    height: 120vh;
+    width: 100%;
+    overflow: hidden;
+}
+.sect8{
+    padding: 85px 60px 80px 60px;
+}
+.section8-container{
+    background-color: #FFF;
+    border-radius: 15px;
+    height: 85vh;
+    padding: 40px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.mail-box{
+    width: 800px;
+    height: 85vh;
+    margin-right: -15%;
+}
+.join{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 220px 0px 20px 0px;
+    width: 300px;
+}
+.community{
+    width: 350px;
+    font-weight: 300;
+    padding-bottom: 30px;
+    line-height: 1.5;
+}
+.float{
+    margin: 140px 20px 0px 0px;
+}
+.app-image{
+    width: 650px;
+    padding: 0px 10px 10px 80px;
+}
+.download{
+    font-size: 45px;
+    width: 550px;
+    font-weight: bold;
+    padding: 0px 0px 120px 0px;
+}
+.play{
+    width: 200px;
+}
+.footer{
+    background-color: #FEFBF5;
+    height: 120vh;
+}
+.footer-container{
+    padding: 80px;
+}
+.sect1{
+    padding: 10px 10px 30px 0px;
+    line-height: 2;
+    font-weight: 300;
+}
+.sect-padd{
+    margin: 0px 90px 0px 90px;
+}
+.sect4{
+    margin-left: 80px;
+}
+.sect5{
+    display: flex;
+    gap: 15px;
+}
+.sect6{
+    display: flex;
+    position: absolute;
+    border: 2px solid rgba(128, 128, 128, 0.245);
+    padding: 5px 15px 5px 15px;
+    margin: -7% 0px 0px 25%;
+    border-radius: 5px;
+}
+hr{
+    opacity: 0.2;
+}
+.contd-con{
+    padding: 30px 30px 70px 0px;
+}
+.contd{
+    display: inline-flex;
+    padding-bottom: 0px;
+    width: 550px;
+    margin-left: 55%;
+}
+.contd-logo{
+    margin-top: -5%;
+    width: 170px;
+}
+.contd3{
+    font-weight: 300;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+.address{
+    font-weight: 300;
+    padding-bottom: 10px;
+}
